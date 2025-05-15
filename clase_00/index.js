@@ -38,8 +38,11 @@ const myArray = [2, 3, "Hola", true, { a: 12 }]
 console.log(myArray);
 console.log(typeof myArray); // ? <- object
 
-const obj2 = obj1;
-console.log(obj2); // ?
+
+
+// const obj2 = obj1; // <-- Copia por referencia
+const obj2 = { ...obj1 } // <-- Copia por Valor
+console.log("obj2 - sin modificar: ", obj2); // ?
 
 obj2.name = "Guillermo";
 console.log("obj2: ", obj2); // ?
@@ -53,3 +56,6 @@ console.log("obj1: ", obj1); // ?
 
 
 
+// const num2 = 12
+// num2 = "HOLA"
+// console.log(num2);
