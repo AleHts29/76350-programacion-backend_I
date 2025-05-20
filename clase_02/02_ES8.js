@@ -21,7 +21,7 @@ console.log("values", soloValues);
 
 // Calcular el total de impuestos en valores
 let impuestoTotal = soloValues.reduce((valAcumulado, valActual) => {
-    console.log(`ValorInicial: ${valActual} + ValorAcumulado: ${valAcumulado}`);
+    console.log(`ValorAcumulado: ${valAcumulado} + ValorInicial: ${valActual} `);
 
     return valAcumulado + valActual
 })
