@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "edad": 30,
+    "curso": "Node.js",
+    "id": 1
+  },
+  {
+    "nombre": "Guille",
+    "apellido": "Laviero",
+    "edad": 27,
+    "curso": "Node.js",
+    "id": 2
+  },
+  {
+    "nombre": "Javier",
+    "apellido": "Araujo",
+    "edad": 33,
+    "curso": "Node.js",
+    "id": 3
+  }
+]
