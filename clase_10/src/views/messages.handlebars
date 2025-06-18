@@ -1,0 +1,21 @@
+<div>
+    <h1>ChatBox v_1.0.0</h1>
+
+    <div>
+        <p>
+            <input id="textoEntrada" type="text">
+        </p>
+    </div>
+
+    {{!-- Renderizado de info --}}
+    <div>
+        <h3>BoxMessage</h3>
+        <h3>----------</h3>
+        <p id="log"> </p>
+    </div>
+</div>
+
+
+{{!-- me traigo dos scripts que hacen referencia al uso de los sockets --}}
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.v1.js"></script>
