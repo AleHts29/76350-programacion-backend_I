@@ -47,4 +47,4 @@ const connectMongoDB = async () => {
         process.exit();
     }
 };
-connectMongoDB();
+connectMongoDB(); 
